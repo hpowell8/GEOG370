@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 10</title>
+</head>
+<body>
+    <h1>Homework 10: Vector Spatial Analysis</h1>
+    <h2> Hanson Powell </h2>
+    <h3> This map shows the distribution of fire stations in Chatham County as well as a buffer region of five miles around them. The significance of the five mile radius is that this distance represents the maximum distance a home can be from a fire station and still recieve a lowered fire insurance rating. Any home built further than 5 miles from a fire station will aoutomatically recieve the highest rating for fire insurance and be forced to pay higher rates. Homes built within 5 miles of several fire stations should recieve an additionally reduced rate, but rates also depend on other factors such as how many firehydrants are in the area. The question I sought to answer with this map was "Where are the best areas to build homes in order to minimize the cost of fire insurance?" When I started making the map, there was some points outside of chatham county so I had to clip them so that they were contained only to Chatham County. I then created the buffer region around the fire stations, and then clipped them so that they were also contained in the county. Finally, I created a feature class for the areas that were not inside the buffer regioins by using the difference geoprocessing technique.  </h3>
+    <a href="WA_Evs.png">
+        <img src = "WA_Evs.png" alt="Washington" width = "500px">
+    </a>
+    <h2>Data Used for This Project</h2>
+    <a href= "Electric_Vehicle_Population_Data.csv"> CSV dataset</a>
+    <a href="https://catalog.data.gov/dataset/electric-vehicle-population-data"> Link to CSV file</a>
+    <p></p>
+    <a href="https://geo.wa.gov/datasets/377b5263afbd44a09017d4c8491538a4_9/data?geometry=-127.860%2C45.981%2C-113.798%2C48.589"> Link to Shapefile</a>
+</body>
+</html>
+
+
+
